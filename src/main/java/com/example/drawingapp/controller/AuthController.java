@@ -4,6 +4,7 @@ import com.example.drawingapp.dto.AuthResponse;
 import com.example.drawingapp.dto.LoginRequest;
 import com.example.drawingapp.dto.LogoutRequest;
 import com.example.drawingapp.dto.RegisterRequest;
+import com.example.drawingapp.security.JwtUtils;
 import com.example.drawingapp.service.AuthService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
